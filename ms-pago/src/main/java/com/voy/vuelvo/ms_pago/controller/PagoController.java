@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/pagos")
 public class PagoController {
-
+// hola esto es una pruebaa
     @Autowired
     private PagoService pagoService;
 

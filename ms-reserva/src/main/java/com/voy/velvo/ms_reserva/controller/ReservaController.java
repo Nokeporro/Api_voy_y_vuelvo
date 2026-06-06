@@ -52,7 +52,7 @@ public class ReservaController {
 
         return ResponseEntity.ok(reserva);
     }
-// hola es pruebaa
+
     @PutMapping("/{id}")
     @Operation(summary ="actualiza reserva por ID",description = "actualiza los datos de la reserva seleccionada")
     public ResponseEntity<?> actualizarReserva(@PathVariable Long id, @RequestBody @Valid Reserva reservaActualizada) {
